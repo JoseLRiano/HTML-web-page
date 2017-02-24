@@ -1,0 +1,19 @@
+ html{
+     margin: 0;
+     padding: 0;
+     background-color: #585858;
+    }
+body{
+    font-family:Georgia;
+    font-weight: normal;
+    background: #F6F6F6;
+    margin:0 auto;
+    width: 70%;
+    font-size: 1em;
+    padding: 1em 50px;
+    border-bottom: 10px solid gold;
+    }
+    .a{
+        text-align: center;
+        margin: auto;
+      }
