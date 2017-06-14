@@ -1,52 +1,132 @@
-<!DOCTYPES html>
-<html lang= "en">
-    <head>
-        <meta charset="utf-8">
-        <titlle>Jose L Riano</titlle>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header role="banner">
-        <h1 class="a">Jose L Riano</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>Jose L Riano</title>
+    
+</head>
+<body >  
+    <style>
+        html{
+            font-family: monospace;
+            font-size: 1em;
+            -webkit-text-fill-color: whitesmoke;
+        }
+        img{
+            width: 150px;
+            display: block;
+        }
+        a{
+            color: whitesmoke;
+        }
+    </style>
+    <header class="clearfix" style="height: 100%; background: url(nyc.jpg) no-repeat center center; background-size: cover;">
+    <!--Navigation Bar-->
+   
+    <nav class="navbar navbar-toggleable-md navbar-light bg-info">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+    <a class="navbar-brand" href="#">Menu</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+          <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="https://github.com/JoseLRiano"><i class="fa fa-github" aria-hidden="true"></i>&nbsp GitHub</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="https://www.linkedin.com/in/jose-l-riano-15801795"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp LinkedIn</a>
+         </li>
+       <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+       </li>
+     </ul>
+     </div>
+    </nav>
+    
+    <!--navigation bar -->
+   <img src="logo.jpg" class="rounded-circle" alt="Jose L Riano">
+        <div class = "container">
+            
+        <h1 class="text-center">Jose L Riano</h1>
             <nav role="navegation">
-            <h4 class="a"><p>joselriano&#64;yahoo.com</p><p><a href="https://www.linkedin.com/in/jose-l-riano-15801795" title="LinkedIn" target="_blank">Linkedin</a>&#47;<a href="https://github.com/JoseLRiano"title="My GitHub!"target="_blank">GitHub</a></p></h4>
+            <h4 class=" text-center"><p class="text-center"><a href="mailto:joselriano@yahoo.com" title="email">joselriano&#64;yahoo.com</a></p>
+            <p><a  href="https://www.linkedin.com/in/jose-l-riano-15801795" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp Linkedin</a> &#47;
+            <a href="https://github.com/JoseLRiano"title="My GitHub!"target="_blank"><i class="fa fa-github" aria-hidden="true"></i>&nbsp GitHub</a></p></h4>
             </nav>
-        </header>
+        </div>
+</head>
+<div class="container">
+
         <main role="main">
         <h2>Education</h2>
         <section>
         <dl>
-            <dt><p><a href="http://www.laguardia.edu/home/Default.aspx"title="LaGuardia Community college"target="_blank">LaGuardia Community College</a></p></dt>
-            <dd><p>Associate of Science in Computer Science</p></dd>
-            <dt><p><a href="http://www.qc.cuny.edu/Pages/home.aspx"title="Queens College"target="_blank">Queens College</a></p>
+            <dt><p><a href="http://www.laguardia.edu/home/Default.aspx"title="LaGuardia Community college"target="_blank"><strong>LaGuardia Community College</strong></a></p></dt>
+            <dd><p class="font-italic"><strong>Associate of Science in Computer Science</strong></p></dd>
+            <dt><p><a href="http://www.qc.cuny.edu/Pages/home.aspx"title="Queens college"target="_blank"><strong>Queens College</strong></a></p>
             </dt>
-            <dd><p>Bachelor of Science in Computer Science&nbsp;&nbsp;&nbsp; <i>&#40;Expected Graduation Fall 2018&#41;</i></p>
+            <dd><p class="font-italic"><strong>Bachelor of Science in Computer Science</strong>&nbsp;&nbsp;&nbsp; <i>&#40;Expected Graduation Fall 2018&#41;</i></p>
             </dd>
         </dl>
+        
         </section>
-          <h2>My Hobbies</h2>  
+        </div>
+        
+        
+        <style>
+            .item{
+                background: white;
+                text-align: ceter;
+                border: 1px solid black;
+            }
+        </style>
+        <div class="container">
+          <h2 class="text-center" style="color:black">Hobbies</h2>  
            
-            <section>
-                <ul>
-                <li>Playing Soccer</li>
-                <li>Running</li>
-                <li>Reading</li>
-                <li>Video Games</li>
-                </ul>
+            <section class="list-group float-left" style="width:30%">
+                <div class="bg-faded">
+                <div class="list-group-item bg-inverse text-white "><i class="fa fa-futbol-o" aria-hidden="true"></i>&nbsp Playing Soccer</div>
+                <div class="list-group-item bg-inverse text-white"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp Running</div>
+                <div class="list-group-item bg-inverse text-white"><i class="fa fa-book" aria-hidden="true"></i>&nbsp Reading</div>
+                <div class="list-group-item bg-inverse text-white"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp Video Games</div>
+                </div>
             </section>
-            <h2>My Favorite Cities</h2>
-            <section>
-                <dl>
-                    <dt><a href="http://www.colombia.travel/en/where-to-go/andean/bogota"title="Bogota"target="_blank">Bogota</a></dt>
-                    <dd><p><img src="Bogota.jpg" title="Bogota"width="600"height="400"aline="right"></p></dd>
-                    
-                    <dt><a href="https://www.lacity.org/"title="Los Angeles" target="_blank">Los Angeles</a></dt>
-                    <dd><p><img src="SantaMonica.jpg"title="Los Angeles"width="600"height"400"aline="right"></p></dd>
-                    
-                </dl>
+           
+            <div class="container float-left" style="margin-top:20px">
+
+            <h2 class="text-center" style="color:white">Cities</h2>
+            <section class="container">
+                <div class="row">
+                
+                    <div class="col-sm-6">
+                    <dt class="text-center"><a href="http://www.col-sm-6ombia.travel/en/where-to-go/andean/bogota"title="Bogota"target="_blank">Bogota</a></dt>
+                    <dd><p class="text-center"><img class="img-responsive img-thumbnail mx-auto" src="Bogota.jpg" title="Bogota" style="width:65%; display: block;"></p></dd>
+                    <button type="botton" class="btn btn-block btn-info"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp Like</button>
+                    </div>
+                    <div class="col-sm-6">
+                    <dt class="text-center"><a  style="color:white" href="https://www.lacity.org/"title="Los Angeles" target="_blank">Los Angeles</a></dt>
+                    <dd><p class="text-center"><img class="img-responsive img-thumbnail mx-auto" src="SantaMonica.jpg"title="Los Angeles" style="width:60%; display:block;"></p></dd>
+                    <button type="botton" class="btn btn-block btn-info"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>&nbsp Like</button>
+                    </div>
+               
+                </div><!-- row -->
+                <h1 class="display-1 text-center">New York City</h1>
             </section>
-        </main>
-    </body>
-
-
+        
+            </main> 
+            </header>
+        </div>  
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+     
+</body>
 </html>
